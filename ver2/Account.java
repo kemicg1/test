@@ -12,9 +12,7 @@ public class Account {
 		public void setName (String name) {
 			this.name = name;
 		}
-		public Account (double balance) {
-			this("Uknown",balance);
-		}
+		
 		
 		public Account (String name, double balance) {
 			this.name = name;
